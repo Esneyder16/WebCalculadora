@@ -59,7 +59,7 @@
             <tr>
                 <td class="auto-style3">Valor 1:</td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="Tvalor1"  runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Tvalor1" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -77,8 +77,8 @@
             <tr>
                 <td class="auto-style6">
                     <asp:ImageButton ID="ImageButton1" runat="server" Height="48px" ImageUrl="~/Imagenes/descarga.png" OnClick="ImageButton1_Click" Width="56px" />
-                    <asp:Button ID="Bcalcular" runat="server" CssClass="auto-style5" Height="68px" Text="CALCULAR" Width="165px" Font-size="Large" ForeColor="#FF3300" OnClick="Bcalcular_Click" />
-                    <br />
+                    <asp:Button ID="Bcalcular" runat="server" CssClass="auto-style5" Height="68px" Text="CALCULAR" Width="165px" Font-Size="Large" ForeColor="#FF3300" />
+                  <br />
                     <br />
                     <asp:RadioButton ID="Rsuma" Text="Suma" runat="server" GroupName="operador" />
                     <br />
